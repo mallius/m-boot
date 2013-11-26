@@ -1,0 +1,298 @@
+crc16.o: crc16.c /home/u-boot-m/include/crc.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/asm/types.h
+crc32.o: crc32.c /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/types.h /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/part.h /home/u-boot-m/include/ide.h \
+  /home/u-boot-m/include/flash.h /home/u-boot-m/include/image.h \
+  /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h /home/u-boot-m/include/compiler.h \
+  /home/u-boot-m/include/u-boot/zlib.h
+ctype.o: ctype.c /home/u-boot-m/include/linux/ctype.h
+display_options.o: display_options.c /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/types.h /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/part.h /home/u-boot-m/include/ide.h \
+  /home/u-boot-m/include/flash.h /home/u-boot-m/include/image.h \
+  /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h \
+  /home/u-boot-m/include/linux/ctype.h /home/u-boot-m/include/asm/io.h \
+  /home/u-boot-m/include/asm/memory.h
+div64.o: div64.c /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/asm/types.h
+gunzip.o: gunzip.c /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/types.h /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/part.h /home/u-boot-m/include/ide.h \
+  /home/u-boot-m/include/flash.h /home/u-boot-m/include/image.h \
+  /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h /home/u-boot-m/include/watchdog.h \
+  /home/u-boot-m/include/malloc.h /home/u-boot-m/include/u-boot/zlib.h
+ldiv.o: ldiv.c
+net_utils.o: net_utils.c /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/types.h /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/part.h /home/u-boot-m/include/ide.h \
+  /home/u-boot-m/include/flash.h /home/u-boot-m/include/image.h \
+  /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h
+string.o: string.c /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/asm/types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h \
+  /home/u-boot-m/include/linux/ctype.h /home/u-boot-m/include/malloc.h
+strmhz.o: strmhz.c /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/types.h /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/part.h /home/u-boot-m/include/ide.h \
+  /home/u-boot-m/include/flash.h /home/u-boot-m/include/image.h \
+  /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h
+time.o: time.c /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/types.h /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/part.h /home/u-boot-m/include/ide.h \
+  /home/u-boot-m/include/flash.h /home/u-boot-m/include/image.h \
+  /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h /home/u-boot-m/include/watchdog.h
+vsprintf.o: vsprintf.c \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/asm/types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h \
+  /home/u-boot-m/include/linux/ctype.h /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h /home/u-boot-m/include/part.h \
+  /home/u-boot-m/include/ide.h /home/u-boot-m/include/flash.h \
+  /home/u-boot-m/include/image.h /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h /home/u-boot-m/include/div64.h
+zlib.o: zlib.c /home/u-boot-m/include/common.h \
+  /home/u-boot-m/include/config.h \
+  /home/u-boot-m/include/config_defaults.h \
+  /home/u-boot-m/include/configs/smdk2440a.h \
+  /home/u-boot-m/include/config_cmd_default.h \
+  /home/u-boot-m/include/asm/config.h \
+  /home/u-boot-m/include/linux/bitops.h \
+  /home/u-boot-m/include/asm/types.h /home/u-boot-m/include/asm/bitops.h \
+  /home/u-boot-m/include/asm/proc/system.h \
+  /home/u-boot-m/include/linux/config.h \
+  /home/u-boot-m/include/linux/types.h \
+  /home/u-boot-m/include/linux/posix_types.h \
+  /home/u-boot-m/include/linux/stddef.h \
+  /home/u-boot-m/include/asm/posix_types.h \
+  /home/u-boot-m/include/linux/string.h \
+  /home/u-boot-m/include/asm/string.h /home/u-boot-m/include/asm/ptrace.h \
+  /home/u-boot-m/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /home/u-boot-m/include/part.h /home/u-boot-m/include/ide.h \
+  /home/u-boot-m/include/flash.h /home/u-boot-m/include/image.h \
+  /home/u-boot-m/include/compiler.h \
+  /usr/local/arm/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /home/u-boot-m/include/asm/byteorder.h \
+  /home/u-boot-m/include/linux/byteorder/little_endian.h \
+  /home/u-boot-m/include/linux/byteorder/swab.h \
+  /home/u-boot-m/include/linux/byteorder/generic.h \
+  /home/u-boot-m/include/lmb.h /home/u-boot-m/include/asm/u-boot.h \
+  /home/u-boot-m/include/command.h \
+  /home/u-boot-m/include/asm/global_data.h \
+  /home/u-boot-m/include/asm/mach-types.h \
+  /home/u-boot-m/include/asm/setup.h \
+  /home/u-boot-m/include/asm/u-boot-arm.h /home/u-boot-m/include/net.h \
+  /home/u-boot-m/include/u-boot/crc.h /home/u-boot-m/include/compiler.h \
+  /home/u-boot-m/include/asm/unaligned.h \
+  /home/u-boot-m/include/linux/unaligned/le_byteshift.h \
+  /home/u-boot-m/include/linux/unaligned/be_byteshift.h \
+  /home/u-boot-m/include/linux/unaligned/generic.h \
+  /home/u-boot-m/include/u-boot/zlib.h /home/u-boot-m/include/malloc.h

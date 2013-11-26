@@ -7,5 +7,5 @@ ls /dev/ | grep ttyUSB
 kermit -c
 
 #运行该脚本
-#拔掉jtag烧写的电线
+#拔掉jtag烧写的电线(细的那根)
 #插好板子上的3根连接线

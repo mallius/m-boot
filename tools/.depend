@@ -1,0 +1,368 @@
+env_embedded.o: /home/u-boot-m/common/env_embedded.c \
+ /home/u-boot-m/include/config.h /home/u-boot-m/include/config_defaults.h \
+ /home/u-boot-m/include/configs/smdk2440a.h \
+ /home/u-boot-m/include/config_cmd_default.h \
+ /home/u-boot-m/include/asm/config.h /home/u-boot-m/include/environment.h \
+ /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h
+image.o: /home/u-boot-m/common/image.c /home/u-boot-m/tools/mkimage.h \
+ /home/u-boot-m/tools/os_support.h /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h /usr/include/sys/stat.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /home/u-boot-m/include/sha1.h \
+ /home/u-boot-m/tools/fdt_host.h /home/u-boot-m/tools/../include/fdt.h \
+ /home/u-boot-m/tools/../include/libfdt.h \
+ /home/u-boot-m/include/libfdt_env.h /home/u-boot-m/include/compiler.h \
+ /home/u-boot-m/include/fdt.h \
+ /home/u-boot-m/tools/../include/fdt_support.h \
+ /home/u-boot-m/include/u-boot/md5.h /home/u-boot-m/include/image.h \
+ /home/u-boot-m/include/libfdt.h /home/u-boot-m/include/fdt_support.h
+crc32.o: /home/u-boot-m/lib_generic/crc32.c \
+ /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /home/u-boot-m/include/u-boot/crc.h /home/u-boot-m/include/u-boot/zlib.h
+md5.o: /home/u-boot-m/lib_generic/md5.c /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /home/u-boot-m/include/u-boot/md5.h
+sha1.o: /home/u-boot-m/lib_generic/sha1.c /usr/include/string.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/include/xlocale.h /home/u-boot-m/include/watchdog.h \
+ /home/u-boot-m/include/sha1.h
+bmp_logo.o: /home/u-boot-m/tools/bmp_logo.c \
+ /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h
+envcrc.o: /home/u-boot-m/tools/envcrc.c /usr/include/errno.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /home/u-boot-m/include/config.h \
+ /home/u-boot-m/include/config_defaults.h \
+ /home/u-boot-m/include/configs/smdk2440a.h \
+ /home/u-boot-m/include/config_cmd_default.h \
+ /home/u-boot-m/include/asm/config.h
+gen_eth_addr.o: /home/u-boot-m/tools/gen_eth_addr.c /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/xlocale.h
+img2srec.o: /home/u-boot-m/tools/img2srec.c \
+ /home/u-boot-m/tools/os_support.h /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdbool.h \
+ /usr/include/ctype.h /usr/include/elf.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h
+fdt.o: /home/u-boot-m/libfdt/fdt.c /home/u-boot-m/include/libfdt_env.h \
+ /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /home/u-boot-m/tools/fdt_host.h /home/u-boot-m/tools/../include/fdt.h \
+ /home/u-boot-m/tools/../include/libfdt.h /home/u-boot-m/include/fdt.h \
+ /home/u-boot-m/tools/../include/fdt_support.h \
+ /home/u-boot-m/libfdt/libfdt_internal.h
+fdt_ro.o: /home/u-boot-m/libfdt/fdt_ro.c \
+ /home/u-boot-m/include/libfdt_env.h /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /home/u-boot-m/tools/fdt_host.h /home/u-boot-m/tools/../include/fdt.h \
+ /home/u-boot-m/tools/../include/libfdt.h /home/u-boot-m/include/fdt.h \
+ /home/u-boot-m/tools/../include/fdt_support.h \
+ /home/u-boot-m/libfdt/libfdt_internal.h
+fdt_rw.o: /home/u-boot-m/libfdt/fdt_rw.c \
+ /home/u-boot-m/include/libfdt_env.h /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /home/u-boot-m/tools/fdt_host.h /home/u-boot-m/tools/../include/fdt.h \
+ /home/u-boot-m/tools/../include/libfdt.h /home/u-boot-m/include/fdt.h \
+ /home/u-boot-m/tools/../include/fdt_support.h \
+ /home/u-boot-m/libfdt/libfdt_internal.h
+fdt_strerror.o: /home/u-boot-m/libfdt/fdt_strerror.c \
+ /home/u-boot-m/include/libfdt_env.h /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /home/u-boot-m/tools/fdt_host.h /home/u-boot-m/tools/../include/fdt.h \
+ /home/u-boot-m/tools/../include/libfdt.h /home/u-boot-m/include/fdt.h \
+ /home/u-boot-m/tools/../include/fdt_support.h \
+ /home/u-boot-m/libfdt/libfdt_internal.h
+fdt_wip.o: /home/u-boot-m/libfdt/fdt_wip.c \
+ /home/u-boot-m/include/libfdt_env.h /home/u-boot-m/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /home/u-boot-m/tools/fdt_host.h /home/u-boot-m/tools/../include/fdt.h \
+ /home/u-boot-m/tools/../include/libfdt.h /home/u-boot-m/include/fdt.h \
+ /home/u-boot-m/tools/../include/fdt_support.h \
+ /home/u-boot-m/libfdt/libfdt_internal.h

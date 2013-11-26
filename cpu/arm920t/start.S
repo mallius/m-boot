@@ -93,7 +93,7 @@ start_code:
 	msr	cpsr, r0
 
 #ifdef CONFIG_SMDK2440_LED
-	bl LED_on
+	bl LED_on			//开机后蜂鸣器响一下，灯闪一下。
 #endif
 
 
@@ -159,7 +159,7 @@ start_code:
 	bl	cpu_init_crit
 #endif
 
-
+/********* bl cpu_init_crit 后*******/
 
 
 
@@ -650,4 +650,5 @@ led_loop:
 	mov	pc, lr
 #endif 
 
-/* modified 09.06, 20:39 */
+/* modified 2013.9.06, 20:39 at Taizhou 404 Room of Haichuan*/
+/* review 2013.11.25, 20:43 */

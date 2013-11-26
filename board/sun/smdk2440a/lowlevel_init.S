@@ -134,7 +134,7 @@ lowlevel_init:
 	cmp     r2, r0
 	bne     0b
 
-	/* everything is fine now */
+	/* everything is fine now */	//back to start.S ??
 	mov	pc, lr
 
 	.ltorg
