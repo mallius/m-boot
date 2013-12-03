@@ -1,1 +1,1 @@
-arm-linux-gdb -x gdb.init u-boot
+arm-linux-gdb -x gdb.cmd u-boot

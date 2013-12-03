@@ -176,14 +176,15 @@ start_code:
 
 /***************** CHECK_BOOT_FLASH ******************************************/
 	//ldr	r1, =( (4<<28)|(3<<4)|(3<<2) )		/* address of Internal SRAM  0x4000003C*/
-	ldr r1, =0x4000003c
+	//ldr r1, =0x4000003c
+	mov r1, #0x4000003c	//这样做是对的吗？
 	mov	r0, #0		/* r0 = 0 */
-	str	r0, [r1]
+	str	r0, [r1]	//0x4000003c中填0
 
 
 	mov	r1, #0x3c		/* address of men  0x0000003C*/
-	ldr	r0, [r1]
-	cmp	r0, #0
+	ldr	r0, [r1]	
+	cmp	r0, #0			//把0X0000003C中的内容和0做比较
 	bne	relocate
 
 	/* recovery  */
@@ -277,41 +278,23 @@ nand2:
 	mov	r1, #0x0					/* r1 = 0 */
 	mov	r2, #LENGTH_UBOOT			/* LENGTH_UBOOT = 0X60000 */
 	bl	nand_read_ll				/* board/sun/smdk2440a/nand_read.c */
-	tst	r0, #0x0					/* nand_read_ll返回值在r0中，为0则成功*/
-	beq	ok_nand_read
+	
 
-bad_nand_read:
-loop2:
-	b	loop2						/* infinite loop, nand_read_ll返回值若不为0*/
+	b stack_setup
 
-ok_nand_read:
-	/* verify */
-	mov	r0, #0						/*Nand Flash中u-boot的起始位置*/
-	ldr	r1, =TEXT_BASE				/*RAM中的起始地址*/
-	mov	r2, #0x400					@ 4 bytes * 1024 = 4K-bytes,0b0100_0000_0000
-go_next:
-	ldr	r3, [r0], #4				/*r0 = r0 + 4*/
-	ldr	r4, [r1], #4				/*r1 = r1 + 4*/
-	teq	r3, r4						/*Nand ?= RAM*/
-	bne	notmatch					/*r3 != r4, infinite loop*/
-	subs	r2, r2, #4
-	beq	stack_setup
-	bne	go_next
-
-notmatch:
-loop3:
-	b	loop3						@ infinite loop
 #endif /*S3C2440*/
 
 /***************** NAND_BOOT *************************************************/
 
 
+loop3:
+	b	loop3						@ infinite loop
 
 
 
 
 
-
+/*#################从NOR启动###############################################*/
 /***************** NOR_BOOT *************************************************/
 relocate:				/* relocate U-Boot to RAM	    */
       /*********** CHECK_FOR_MAGIC_NUMBER***************/
