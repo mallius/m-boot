@@ -92,9 +92,6 @@ start_code:
 	orr	r0, r0, #0xd3		// turn off irq, turn off fiq, set SVC32 mode 
 	msr	cpsr, r0
 
-#ifdef CONFIG_SMDK2440_LED
-	bl LED_on			//开机后蜂鸣器响一下，灯闪一下。
-#endif
 
 
 #ifdef CONFIG_S3C24X0
@@ -597,10 +594,12 @@ fiq:
 
 #endif
 
+/*#############################亮灯，滴一下#######################################*/
 #ifdef CONFIG_SMDK2440_LED
 /*
 Add LED test code.   Hanson
 */
+
 
 #define pGPBCON    0x56000010	//Port B control
 #define pGPBDAT    0x56000014	//Port B data
@@ -633,5 +632,8 @@ led_loop:
 	mov	pc, lr
 #endif 
 
-/* modified 2013.9.06, 20:39 at Taizhou 404 Room of Haichuan*/
+/*#############################亮灯，滴一下#######################################*/
+
+/* modified 2013.9.06, 20:39 at Taizhou 404 Room of Haichuan Company*/
 /* review 2013.11.25, 20:43 */
+/* review 2013.12.03, 20:19*/
